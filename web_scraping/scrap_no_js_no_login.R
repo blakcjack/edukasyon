@@ -12,7 +12,6 @@
 suppressPackageStartupMessages({
   library(rvest)
   library(dplyr)
-  library(xml2)
 })
 
 # set the work space to the main folder
