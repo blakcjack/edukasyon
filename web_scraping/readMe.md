@@ -29,3 +29,19 @@ If the website require us to manual login, we can use the RSelenium with the fol
 4. From the variables, we can use method `sendKeysToElement()` to send the username and password.
 5. Access the button login and use method `clickElement()` to click it.
 6. If the username and password is correct, we will logged in to the web.
+
+# `rvest` in Brief
+
+`rvest` is a package created by well known R developer, Hadley Wickham. In python this package is identical to `Beautifulsoup`, except the OOP of course. The `rvest` package uses R functional programming concept. It means the function is not integrated into the object.
+
+Some basic functions widely used in basic scraping are as follow:
+
+- `read_html()` to read a web page and fetch them as html.
+- `html_node()`, `html_node()` are two functions to fetch the node of the html. We can use xpath or css selectors. These functions are superseeded.
+- `html_ement()` and `html_elements()` are the current recommended function to get an html element using xpath or css selectors. These functions are the newly developed functions from `xml_node()`, `xml_nodes()`, `html_node()`, and `html_nodes()`.
+- `html_text()` and `html_text2()` are two functions that will extract text value from our element.
+- `html_attr()` and `html_attrs()` are used to extract specific information from specific html attributes.
+
+# `RSelenium` in Brief
+
+`RSelenium` is a library created by John Harrison. This package is specifically made to help us interactively communicate with a website using script. In other words, we are creating a robot to communicate with a website. Unlike `rvest`, `RSelenium` was made under fully OOP concept. The main object that will be used massively is `remoteDriver` object.
