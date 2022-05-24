@@ -1,6 +1,6 @@
 ################################################################################
 ##                    WHAT WILL WE DO?                                        ##
-##  1. Standard web scraping  commands in R                                   ##
+##  1. Standard web scraping  commands in R using rvest                       ##
 ##  2. Website with API                                                       ##
 ##  3. Combining web scraping with website API                                ##
 ##  4. Scraping through all pages                                             ##
